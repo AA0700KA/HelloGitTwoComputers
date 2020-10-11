@@ -10,6 +10,8 @@ public class Main {
             fact *= i;
         }
 
+        System.out.println(fact);
+        
     }
 
 }
