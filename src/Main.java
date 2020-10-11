@@ -1,7 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
 
         final int N = 7;
         int fact = 1;
@@ -11,7 +10,18 @@ public class Main {
         }
 
         System.out.println(fact);
-        
+
+        int num = 5239;
+        int sum = 0;
+
+        while (num != 0) {
+            int divide = num % 10;
+            sum += divide;
+            num = num / 10;
+        }
+
+        System.out.println(sum);
+
     }
 
 }
